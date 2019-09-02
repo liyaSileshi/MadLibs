@@ -5,6 +5,9 @@ def user_input(prompt):
     # and wait for user input.
     user_input = input(prompt)
     return user_input
+
+def adj():
+    return input("Enter an adj")
 t1= "It was a "
 t2="{adjective}".format(adjective = user_input("Enter an adjective: "))
 t3=", cold November day."
@@ -16,9 +19,9 @@ t8= "roasting in the"
 t9="{room}".format(room= user_input("Enter a room in a house: "))
 t10="downstairs. "
 t11="I"
-t12="{verb1}".format(verb1=user_input("Enter a verb in past tense: "))
+t12="{verb_past}".format(verb_past=user_input("Enter a verb in past tense: "))
 t13="down the stairs to see if I could help"
-t14="{verb2}".format(verb2= user_input("Enter a verb: "))
+t14="{verb}".format(verb= user_input("Enter a verb: "))
 t15="the dinner. "
 t16='My mom said, "See if"'
 t17="{relative}".format(relative=user_input("Enter a relative's name: "))
@@ -37,6 +40,18 @@ t29="{verb}".format(verb=user_input("Enter a verb: "))
 t30="on the"
 t31="{noun}".format(noun=user_input("Enter a noun:"))
 t32="!"
+
+adjectives=[t2, t5]
+bird=[t7]
+room=[t9]
+verb_past=[t12]
+verb=[t14,t23,t29]
+relative=[t17]
+noun=[t19,t31]
+liquid=[t21]
+body=[t26]
+plural_noun=[t28]
+
 
 
 print(" ")
